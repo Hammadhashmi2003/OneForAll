@@ -109,8 +109,7 @@ data = {}
 def banner():
 	with open(meta_file_path, 'r') as metadata:
 		json_data = loads(metadata.read())
-		twitter_url = json_data['twitter']
-		comms_url = json_data['comms']
+	
 
 	art = r'''
   --------   ----    ---- ------------      ------------   --------   -----------          ------    ----         ----         
